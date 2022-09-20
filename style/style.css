@@ -1,0 +1,192 @@
+*{  margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    }
+body{
+    background-color: black;
+    height: 99.90vh;
+    width: 99.90vw;
+    margin: 0;
+    overflow: auto;
+    }
+p{
+font-size: 100%;
+margin: 0px;
+padding: 0px;
+text-align: center;
+line-height: 15px}
+
+h1{
+	font-size: 100%;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;}
+
+.marco {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  background-color: #2196F3;
+  height: 95%;
+  width: 100%;
+}
+.cabecera{
+    width: 100%;
+    min-height: 6.5%;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+	}
+.pie{
+	font-size:15px;
+	height: 5%;
+	width: 100%;
+	background-color: purple;
+}
+.ColIzq {
+  background-color: rgba(100, 100, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 30px;
+  margin: 0px;
+  padding: 0px;
+  max-height:100%;
+
+  text-decoration: none;
+}
+.ColIzq header{
+      font-size: 45px;
+      color: white;
+      text-align: left;
+      line-height: 70px;
+      background: blue;
+      height: 10vh; /*10/97*/
+
+}
+.logo_img{
+        max-width: auto;
+        max-height: 80%;
+        text-align:left;
+        padding: 0.5em;
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
+        vertical-align: middle;
+        }
+.ColIzq ul a{
+    display: block;
+    height: 10vh;
+    width: 100%;
+    line-height: 75px;
+    font-size: 30px;
+    color: black;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top :1px solid rgba(255,255,255, .1);
+    border-bottom: 1px solid black;
+
+    }
+.spacer-0{
+    max-height: 2vh;/*12/97*/
+    }
+.spacer-1{
+    min-height:25vh;/*47/97*/
+    }
+.ColDcha {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 0px;
+  font-size: 30px;
+  max-height: 100%;
+  text-align: center;
+}
+.menu {
+  display: grid;
+  grid-template-columns: auto;
+  background-color: #2196F3;
+  height: 100%;
+
+}
+.opcion{
+    width: 100%;
+    height: 10%;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+
+}
+.link{
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+}
+.secciones_musica{
+	height:30%;
+	background-color: red;
+	margin-top: 4px;
+	border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.titulos_secciones{
+  background-color: yellow;
+  font-size: 60%;
+  max-height: 10%;
+  width: 100%;
+  text-align: left;
+  margin: 1px;
+}
+
+.canciones{
+	height: 90%;
+ 	display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+	background-color: green;
+}
+
+.cancion{
+	height: auto;
+	width: 100%;
+}
+
+.cancion_container{
+	position: relative;
+	margin-top: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	height: 75%;
+}
+
+.cancion_imagen{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.titulo_artista{
+	font-size: 15px;
+	background-color: #45200A
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #008CBA;
+
+}
+
+.cancion_container:hover .overlay {
+  opacity: 1;
+}
+
+.overlay audio {
+
+	width: 100%;
+	height: 100%;
+}
