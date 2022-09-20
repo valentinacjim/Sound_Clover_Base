@@ -40,9 +40,10 @@ h1{
     border: 1px solid rgba(0, 0, 0, 0.8);
 }
 .pie{
-	font-size:15px;
-	height: 5%;
+	font-size:20px;
+	height: 4%;
 	width: 100%;
+    margin-top: 5px;
 	background-color: purple;
 }
 .ColIzq {
