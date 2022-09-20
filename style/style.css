@@ -15,7 +15,7 @@ font-size: 100%;
 margin: 0;
 padding: 0;
 text-align: center;
-line-height: 15px}
+line-height: 17px}
 
 a{
     color: black;
@@ -168,7 +168,7 @@ h1{
 
 .titulo_artista{
 	font-size: 15px;
-	background-color: #45200A
+	background-color: #f3c2ad
 }
 
 .overlay {
@@ -186,7 +186,7 @@ h1{
 }
 
 .cancion_container:hover .overlay {
-  opacity: 1;
+  opacity: 0.8;
 }
 
 .overlay audio {
@@ -195,19 +195,20 @@ h1{
 	height: 100%;
 }
 
-.button {
+.boton {
     background-color: purple;
     border: none;
     color: white;
     text-align: center;
-    font-size: 12px;
-    padding: 16px 32px;
+    font-size: 20px;
+    padding: 12px 28px;
     opacity: 0.8;
     transition: 0.3s;
     display: inline-block;
     text-decoration: none;
     cursor: pointer;
     float:right;
+    margin-right: 5px;
 }
 
-.button:hover {opacity: 1}
+.boton:hover {opacity: 1}
