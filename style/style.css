@@ -1,5 +1,5 @@
-*{  margin: 0px;
-    padding: 0px;
+*{  margin: 0;
+    padding: 0;
     list-style: none;
     text-decoration: none;
     }
@@ -12,15 +12,19 @@ body{
     }
 p{
 font-size: 100%;
-margin: 0px;
-padding: 0px;
+margin: 0;
+padding: 0;
 text-align: center;
 line-height: 15px}
 
+a{
+    color: black;
+}
+
 h1{
 	font-size: 100%;
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	text-align: left;}
 
 .marco {
@@ -30,11 +34,11 @@ h1{
   height: 95%;
   width: 100%;
 }
-.cabecera{
+.cabecera {
     width: 100%;
     min-height: 6.5%;
     border: 1px solid rgba(0, 0, 0, 0.8);
-	}
+}
 .pie{
 	font-size:15px;
 	height: 5%;
@@ -45,8 +49,8 @@ h1{
   background-color: rgba(100, 100, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
   font-size: 30px;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   max-height:100%;
 
   text-decoration: none;
@@ -86,12 +90,12 @@ h1{
     max-height: 2vh;/*12/97*/
     }
 .spacer-1{
-    min-height:25vh;/*47/97*/
+    min-height:22vh;/*47/97*/
     }
 .ColDcha {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 0px;
+  padding: 0;
   font-size: 30px;
   max-height: 100%;
   text-align: center;
@@ -107,8 +111,8 @@ h1{
     width: 100%;
     height: 10%;
     border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     display: grid;
     grid-template-columns: 30% 70%;
 
@@ -190,3 +194,20 @@ h1{
 	width: 100%;
 	height: 100%;
 }
+
+.button {
+    background-color: purple;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 16px 32px;
+    opacity: 0.8;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    float:right;
+}
+
+.button:hover {opacity: 1}
