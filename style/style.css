@@ -66,7 +66,7 @@ h1{
   margin: 0;
   padding: 0;
   text-decoration: none;
-    max-height: 100vh;
+  height: 95vh;
 }
 /*Nombre y logotipo de la página
 colocados en un div (grid), se evita la seleccíon del contenido `por parte del usuario*/
@@ -77,21 +77,17 @@ colocados en un div (grid), se evita la seleccíon del contenido `por parte del 
     color: White;
     font-size: 3em;
     user-select: none;
+    height: 7.5vh;
+    padding-top: 1em;
+    padding-left: 1em ;
 }
 /*ajustes de tamaño del logotipo*/
 .Logo{
-    padding-top: 0.5em ;
     min-width: 20%;
 }
-.Logo img{
-    width: 100%;
-    margin: 0px;
-    padding: 2px;
-}
-/*ajustes relaccionados con el nombre de la web*/
-.nombre {
-    padding-left: 1em;
-    padding-top: 1em;
+/*Ajustes de posición del nombre de la web*/
+.nombre{
+    padding-left: 0px;
 }
 /*Div contenedor de todo el tramo medio del menú lateral*/
 .navbar{
@@ -99,6 +95,8 @@ colocados en un div (grid), se evita la seleccíon del contenido `por parte del 
     grid-template-columns: 100%;
     margin: 0px;
     padding-top: 0.5em;
+    height: 76.64vh;
+
 }
 /*sobreponemos un link a cada fila de las opciones*/
 .navbar a{
@@ -113,21 +111,20 @@ colocados en un div (grid), se evita la seleccíon del contenido `por parte del 
     grid-template-columns: 10% 90%;
     margin: 0px;
     font-size: 45px;
+    color: white;
+
 }
 /*efecto de selección*/
 .fila:hover{
     background-color: #6d6d6d;
+    color: black;
 }
 /*ajustes de tamaño de cada fila*/
 .fila div{
     max-height: 15vh;
     padding-right: 5px;
     padding-top: 0.5em;
-}
-.fila img{
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
+    padding-left: 10px;
 }
 /*espaciador de la columna izquierda*/
 .spacer{
@@ -150,6 +147,7 @@ colocados en un grid 50|50*/
 /*efecto de selección*/
 .Eula div:hover{
     background-color: #6d6d6d;
+    color:black;
 }
 /*Sobreponemos un link a todo el div*/
 .Eula a{
