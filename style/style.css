@@ -97,13 +97,15 @@ colocados en un div (grid), se evita la seleccíon del contenido `por parte del 
     padding-top: 0.5em;
     height: 76.64vh;
 
+
 }
 /*sobreponemos un link a cada fila de las opciones*/
 .navbar a{
     display: block;
     text-decoration: none;
     color: black;
-    font-family: "Papyrus", fantasy;
+    font-family: "Lucida Handwriting", "Courier New", cursive;
+
 }
 /*sub-grid que almacena cada opción con su icono*/
 .fila{
