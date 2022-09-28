@@ -11,7 +11,7 @@ body{
     margin: 0;
     }
 
-/*--------------------Ediciones (?) generales------------------------*/
+/*--------------------Ediciones-generales------------------------*/
 
 p{
 font-size: 100%;
@@ -49,10 +49,15 @@ h1{
         min-height: 35vh;
     }
     .Eula{font-size: 180%;
-        min-height: 60px;
+        min-height: 75px;
     }
 }
+@media only screen and (max-width: 1040px){
+    .encabezado{
+        font-size: 150%;
+    }
 
+}
 @media only screen and (max-width: 768px){
     .encabezado{
         font-size: 20px;
@@ -311,4 +316,8 @@ colocados en un grid 50|50*/
     text-align: center;
     padding: 0.75vh 12px;
     text-decoration: none;
+}
+.cabecera li a:hover{
+    background-color: #6d6d6d;
+    color: black;
 }
