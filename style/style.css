@@ -28,13 +28,64 @@ a{
 
 h1{
 	font-size: 100%;
-	margin: 0;
+    margin-left: 0.5em;
 	padding: 0;
 	text-align: left;
     font-family: "Lucida Handwriting", "Courier New", cursive;
 }
 
+/*-------------------Breakpoints----------------------*/
+@media only screen and (min-width: 768px){
+    .encabezado{
+        /*font-size: 40px;*/
+        font-size: 201%;
+    }
+    .navbar{
+        height: 76.64vh;
+    }
+    .fila div {font-size: 40px;}
+    h1{font-size: 40px;}
+    .spacer{
+        min-height: 35vh;
+    }
+    .Eula{font-size: 40px;
+        min-height: 60px;
+    }
+}
 
+@media only screen and (max-width: 768px){
+    .encabezado{
+        font-size: 20px;
+    }
+    .navbar{
+        height: 80vh;
+    }
+    .fila div {font-size: 20px;}
+    h1{font-size: 20px;}
+    .spacer{
+        min-height: 40vh;
+    }
+    .Eula{font-size: 20px;
+        min-height: 40px;}
+
+}
+@media only screen and (max-width: 600px){
+    .encabezado{
+        font-size: 20px;
+    }
+    .navbar{
+        height: 80vh;
+    }
+    .fila div {font-size: 15px;}
+    h1{font-size: 15px;}
+    .spacer{
+        min-height: 40vh;
+    }
+    .Eula{font-size: 17px;
+        min-height: 40px;}
+    .pie p{font-size: 15px;}
+
+}
 /*--------------Ediciones específicas-----------------*/
 
 
@@ -43,12 +94,10 @@ h1{
   grid-template-columns: 25% 75%;
   background-color: #212121;
   height: 95vh;
-  width: 100vw;
 }
 .cabecera {
     width: 100%;
     min-height: 7%;
-    /*border: 1px solid rgba(0, 0, 0, 0.8);*/
     float:right;
 }
 .pie{
@@ -75,11 +124,10 @@ colocados en un div (grid), se evita la seleccíon del contenido `por parte del 
     grid-template-columns: 20% 80%;
     background-color: #212121 ;
     color: White;
-    font-size: 3em;
     user-select: none;
     height: 7.5vh;
+    padding-left: 1em;
     padding-top: 1em;
-    padding-left: 1em ;
 }
 /*ajustes de tamaño del logotipo*/
 .Logo{
@@ -87,31 +135,20 @@ colocados en un div (grid), se evita la seleccíon del contenido `por parte del 
 }
 /*Ajustes de posición del nombre de la web*/
 .nombre{
-    padding-left: 0px;
+    padding-left: 0;
 }
 /*Div contenedor de todo el tramo medio del menú lateral*/
 .navbar{
     display: grid;
     grid-template-columns: 100%;
-    margin: 0px;
+    margin: 0;
     padding-top: 0.5em;
-    height: 76.64vh;
-
-
-}
-/*sobreponemos un link a cada fila de las opciones*/
-.navbar a{
-    display: block;
-    text-decoration: none;
-    color: black;
-    font-family: "Lucida Handwriting", "Courier New", cursive;
-
 }
 /*sub-grid que almacena cada opción con su icono*/
 .fila{
     display: grid;
     grid-template-columns: 10% 90%;
-    margin: 0px;
+    margin: 0;
     font-size: 45px;
     color: white;
 
@@ -128,22 +165,18 @@ colocados en un div (grid), se evita la seleccíon del contenido `por parte del 
     padding-top: 0.5em;
     padding-left: 10px;
 }
-/*espaciador de la columna izquierda*/
-.spacer{
-    min-height: 35vh;
-}
 /* Elementos que contienen la politica de privacidad y cookies
 colocados en un grid 50|50*/
 .Eula{
-    min-height: 60px;
     width: 100%;
     display: grid;
     grid-template-columns: 50% 50%;
     color: white;
     background-color: #212121;
+
 }
 .Eula div{
-    font-size: 40px;
+    height: 100%;
     text-align: center;
 }
 /*efecto de selección*/
@@ -169,27 +202,6 @@ colocados en un grid 50|50*/
   max-height: 89vh;
   text-align: center;
     color: white;
-}
-.menu {
-  display: grid;
-  grid-template-columns: auto;
-  background-color: #212121;
-  height: 100%;
-
-}
-.opcion{
-    width: 100%;
-    height: 10%;
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 0;
-    margin: 0;
-    display: grid;
-    grid-template-columns: 30% 70%;
-
-}
-.link{
-    width: 100%;
-    border: 1px solid rgba(0, 0, 0, 0.8);
 }
 .musica{
     max-height: 100%;
